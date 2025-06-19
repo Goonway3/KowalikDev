@@ -45,7 +45,7 @@ html {
         border-top-right-radius: 2vw;
         top: 0;
         z-index: 999;
-        width: 97.5%;
+        width: 95.5vw;
         box-sizing: border-box;
         padding: 2%;
         transition: transform 0.5s ease;
@@ -112,7 +112,7 @@ html {
         display: none;
     }
     main {
-        margin-top: 14%;
+        margin-top: 16%;
     }
     h2 {
         font-size: 120%;
@@ -124,7 +124,7 @@ html {
         position: relative;
         margin-left: 2%;
         margin-right: 2%;
-        margin-bottom: 65%;
+        margin-bottom: 110vw;
     }
     .first-img {
         width: 100%;
