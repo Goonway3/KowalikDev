@@ -94,9 +94,15 @@ html {
         color: rgb(170, 170, 170);
         text-decoration: none;
         font-weight: bold;
+        font-size: 80%;
+    }
+    .nav-links a:hover {
+        color: rgb(97, 218, 251);
+        text-shadow: 0 0 8px rgb(97, 218, 251, 0.7), 0 0 15px rgb(97, 218, 251, 0.5);
+        transition: color 0.3s ease, text-shadow 0.3s ease;
     }
     .title h1 {
-        font-size: 150%;
+        font-size: 125%;
     }
     .title a{
         text-decoration: none;
@@ -109,15 +115,16 @@ html {
         margin-top: 14%;
     }
     h2 {
-        font-size: 1.9vw;
+        font-size: 120%;
     }
     .first-section {
         display: flex;
         align-items: center;
+        flex-direction: column;
         position: relative;
         margin-left: 2%;
         margin-right: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 65%;
     }
     .first-img {
         width: 100%;
@@ -128,25 +135,25 @@ html {
     }
     .code {
         font-family: monospace;
-        font-size: 1.2vw;
+        font-size: 80%;
         vertical-align: middle;
         color: rgb(97, 218, 251);
     }
     .gray-bracketv2 {
         font-family: monospace;
-        font-size: 1.2vw;
+        font-size: 80%;
         vertical-align: middle;
         color: rgb(201, 201, 201);
     }
     #typed {
         color: white;
         font-family: monospace;
-        font-size: 1.2vw;
+        font-size: 80%;
         border-right: 2px solid rgb(97, 218, 251);
         white-space: nowrap;
         overflow: hidden;
         animation: blinkCursor 1s steps(1) infinite;
-        }
+    }
 
     @keyframes blinkCursor {
         0%, 100% {
@@ -162,20 +169,21 @@ html {
         gap: 1rem;
     }
     .social-media img {
-        width: 1.5vw;
+        width: 3vw;
         height: auto;
     }
     .description-container {
         position: absolute;
-        left: 47.5%;
+        top: 90%;
+        width: 90%;
         background-color: rgb(50, 50, 50);
-        z-index: 2;;
+        z-index: 2;
         border-radius: 2vw;
         padding: 2%;
         box-shadow: 0 14px 14px rgba(0, 0, 0, 0.6);
     }
     .description-container p {
-        font-size: 1.3vw;
+        font-size: 80%;
     }
 }
 /* Tablet */
@@ -362,18 +370,9 @@ html {
         position: relative;
     }
     .menu {
-        font-size: 1.20em;
-        cursor: pointer;
         display: none;
     }
     .nav-links {
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background-color: #222;
-        width: 200px;
-        padding: 20px;
         display: none;
     }
     .title a{
