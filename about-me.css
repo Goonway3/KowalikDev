@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px) {
+    .about-me {
+        padding: 2%;
+        border-radius: 2vw;
+        background: rgb(50, 50, 50);
+    }
+    .about-me-content {
+        font-family: monospace;
+        border-radius: 2vw;
+    }
+    .about-me-content pre {
+        font-size: 85% !important;
+        white-space: pre-wrap !important;
+        overflow-y: hidden;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    pre[class*="language-"] {
+        border-radius: 2vw;
+        background: rgb(30, 30, 30) !important;
+    }
+}
+@media screen and (min-width:1200px) {
+    .about-me {
+        padding: 2%;
+        border-radius: 2vw;
+        background: rgb(50, 50, 50);
+    }
+    .about-me-content pre {
+        overflow-y: hidden;
+    }
+    .about-me-content {
+        font-family: monospace;
+        font-size: 110%;
+        border-radius: 2vw;
+    }
+    pre[class*="language-"] {
+        border-radius: 2vw;
+        background: rgb(30, 30, 30) !important;
+    }
+}

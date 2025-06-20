@@ -5,7 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kowalikdev.pl</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="start.css">
+    <link rel="stylesheet" href="about-me.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="scrollbar.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/prismjs/themes/prism-tomorrow.css" />
+    <link rel="stylesheet" href="https://unpkg.com/prismjs/plugins/line-numbers/prism-line-numbers.css" />
+    <script src="https://unpkg.com/prismjs/prism.js"></script>
+    <script src="https://unpkg.com/prismjs/plugins/line-numbers/prism-line-numbers.js"></script>
 </head>
 <body id="start">
     <div class="content">    
@@ -29,31 +41,70 @@
                 <a href="#kontakt">Kontakt <span class="gray-bracket">/&gt;</span></a>
             </div>
         </header>
-        <!-- <nav>    
-            <div class="nav-links" id="nav-links">
-                <a href="#">Home</a>
-                <a href="#">O mnie</a>
-                <a href="#">Projekty</a>
-                <a href="#">Kontakt</a>
-            </div>
-        </nav> -->
         <main>    
             <div class="first-section">    
-                <img class="first-img" src="Images/Second-Image.png">
+                <img src="Images/Second-Image.png">
                 <div class="description-container">
                     <div class="code-container">
-                        <span class="gray-bracketv2">&lt;</span><span class="code">code</span><span class="gray-bracketv2">&gt;</span><code id="typed" class="code"></code><span class="gray-bracketv2">&lt;/</span><span class="code">code</span><span class="gray-bracketv2">&gt;</span>
+                        <span class="gray-bracket-code">&lt;</span><span class="code">code</span><span class="gray-bracket-code">&gt;</span><code id="typed" class="code"></code><span class="gray-bracket-code">&lt;/</span><span class="code">code</span><span class="gray-bracket-code">&gt;</span>
                     </div>
-                    <div class="social-media">    
-                        <h2 class="title"><b><span class="kolor">Mat</span>eusz <span class="kolor">Kow</span>alik</b></h2>
+                    <div class="social-media">        
+                        <h2><b><span class="kolor">Mat</span>eusz <span class="kolor">Kow</span>alik</b></h2>
                         <a href="https://github.com/Goonway3" target="_blank"><img src="Images/Github-Logo.png" alt="Github"></a>
                         <a href="https://www.facebook.com/mateusz.kowalik.3152/?locale=pl_PL" target="_blank"><img src="Images/Facebook-Logo.png" alt="Facebook"></a>
                         <a href="https://www.instagram.com/mateusz.kowalik27/" target="_blank"><img src="Images/Instagram-Logo.png" alt="Instagram"></a>
+
                     </div>
                     <p>Cześć! Jestem początkującym programistą i uczniem szkoły średniej. Choć jeszcze nie pracuję zawodowo w branży IT, codziennie rozwijam swoje umiejętności i uczę się programowania. Na tym etapie bardziej niż na zarobkach zależy mi na zdobywaniu doświadczenia, budowaniu portfolio i rozwijaniu praktycznych umiejętności. Tworzenie stron internetowych i poznawanie nowych technologii to coś, co naprawdę mnie wciąga i motywuje do działania.</p>
                     <p>Poza komputerem lubię spędzać czas aktywnie — gram w piłkę nożną, często chodzę po górach i biegam, żeby się odstresować i nabrać świeżej energii. Uważam, że równowaga między pasją a ruchem to klucz do dobrego samopoczucia i efektywnej pracy.</p>
                 </div>
-            </div> 
+            </div>
+            <div class="about-me" id="about-me">
+                <p><h1><span class="blue-bracket">&lt;</span> O Mnie <span class="blue-bracket">/&gt;</span></h1></p>
+                <div class="about-me-content">
+                <pre class="line-numbers"><code class="language-javascript">class MateuszKowalik {
+    
+    constructor() {
+        this.name = 'Mateusz Kowalik';
+        this.dayOfBirthTimestamp = 1146117600;
+        this.email = 'mateusz.kowalik@example.com';
+    }
+
+    education() {
+        return [
+        { '2021–2026': 'Technikum Informatyczne w Dobrzeniu Małym' }
+        ];
+    }
+
+    workExperience() {
+        return [
+        { '2024 (2 miesiące)': 'Stażysta w serwisie komputerowym' }
+        ];
+    }
+
+    examsAndCertifications() {
+        return [
+            { year: 2024, name: 'Egzamin INF.02' },
+            { year: 2024, name: 'Cisco Networking Academy: IT Essentials' }
+        ];
+    }
+
+    skills() {
+        return ['HTML', 'CSS', 'JavaScript'];
+    }
+
+    languages() {
+        return ['Polski (ojczysty)', 'Angielski (B2)'];
+    }
+
+    hobbies() {
+        return ['programowanie', 'chodzenie po górach', 'bieganie', 'piłka nożna'];
+    }
+
+}
+                </code></pre>
+                </div>
+            </div>
         </main>
     </div>
 </body>

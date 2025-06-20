@@ -1,0 +1,13 @@
+main {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/* Telefon */
+@media screen and (max-width: 767px) {
+    main {
+        margin-top: 16vw;
+    }
+    h1 {
+        font-size: 125%;
+    }
+}
